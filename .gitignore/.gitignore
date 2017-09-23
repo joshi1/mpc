@@ -1,0 +1,47 @@
+#data directory
+**data/
+
+#build directory
+**build/
+
+#temp src files
+*~
+
+#Eigen-3.3 directory
+**Eigen-3.3/
+
+#old read me 
+README.orig.md
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
