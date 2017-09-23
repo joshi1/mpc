@@ -186,8 +186,8 @@ int main() {
           double steer_value = vars[4]/deg2rad(25);
           double throttle_value = vars[5];
 
-	  cout << " steer value = " << steer_value
-	       << " throttle value = " << throttle_value << endl;
+	  printf(" steer value = % 06.5f, throttle value = %06.5f \n",
+		 steer_value, throttle_value);
 	  
           json msgJson;
 	  
